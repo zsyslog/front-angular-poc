@@ -1,0 +1,20 @@
+<div class="jumbotron">
+  <h1>HTML5: Inputs para formularios</h1>
+</div>
+
+<div class="row marketing">
+  <h2></h2>
+  <hr>
+  <h4>Buttons</h4>
+  <simple-button sb-cfg="{'label':'Enviar', 'icon':'ok', 'type':'success'}"></simple-button>
+  <simple-button sb-cfg="{'label':'Enviar', 'icon':'alert', 'type':'info'}"></simple-button>
+  <simple-button sb-cfg="{'label':'Enviar', 'icon':'exclamation-sign', 'type':'danger'}"></simple-button>
+  <simple-button sb-cfg="{'label':'Enviar', 'type':'primary'}"></simple-button>
+  <hr>
+  <h4>Select</h4>
+  <simple-select ss-model="selectModel" ss-cfg="{'label':'Seleccione', 'id': 'select1'}" ss-options="selectOptions"></simple-select>
+  <p>Valor seleccionado: {{selectModel}}</p>
+  <hr>
+  <h4>Email Text Input</h4>
+  <email-input ss-cfg="{'label':'e-mail', 'id': 'email1', 'placeholder': 'ej: usuario@domain.com'}"></email-input>
+</div>
